@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Introduction</title>
+    <style>
+        p{
+            color: red;
+        }
+        [secondPara]{
+           font-size: 30px;
+        }
+        [title = "Second Paragraph"]{
+            font-style: italic;
+        }
+        /*PSEUDO ELEMENT*/
+        p::first-letter{
+            color: black;
+        }
+        p:hover{
+            background-color: black;
+            color: white;
+        }
+        #para{
+            color: green;
+        }
+    </style>
+
+</head>
+<body>
+   <p style="color: blue;">This is the first paragraph</p>
+   <p secondPara title="secondPara">This is the second one</p>
+   <p>This paragraph belongs to Lateef</p>
+   <p id="para">Third paragraph</p>
+   <h1>Hello World</h1>
+   <h2 heading2 class="h2heading">H2 Heading</h2>
+   <input type="text">
+</body>
+</html>

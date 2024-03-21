@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>10 Basic Git Commands</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>10 Basic Git Commands</h1>
+
+  <ul>
+    <li><strong>1. git init:</strong> Initializes a new Git repository in the current directory.</li>
+    <li><strong>2. git clone [repository URL]:</strong> Clones an existing repository from a remote server to your local machine.</li>
+    <li><strong>3. git add [file(s)]:</strong> Adds file(s) to the staging area, preparing them to be committed.</li>
+    <li><strong>4. git commit -m "[commit message]":</strong> Commits the staged changes with a descriptive commit message.</li>
+    <li><strong>5. git status:</strong> Displays the current status of the repository, including changes that are staged, unstaged, and untracked.</li>
+    <li><strong>6. git pull:</strong> Fetches changes from the remote repository and merges them into the current branch.</li>
+    <li><strong>7. git push:</strong> Pushes committed changes from your local repository to the remote repository.</li>
+    <li><strong>8. git branch:</strong> Lists all the branches in the repository.</li>
+    <li><strong>9. git checkout [branch name]:</strong> Switches to the specified branch.</li>
+    <li><strong>10. git merge [branch name]:</strong> Merges the specified branch into the current branch.</li>
+  </ul>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARIA - Accessible Rich Internet Application</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+    audio, video {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>ARIA - Accessible Rich Internet Application</h1>
+
+  <p>ARIA (Accessible Rich Internet Applications) is a set of attributes that can be added to HTML elements to improve the accessibility of web content, particularly for users with disabilities.</p>
+
+  <h2>Key Concepts:</h2>
+
+  <ul>
+    <li><strong>Roles:</strong> ARIA defines roles for elements such as buttons, links, menus, and more, to describe their purpose or function.</li>
+    <li><strong>States:</strong> ARIA states describe the current condition or status of an element, such as expanded, selected, or disabled.</li>
+    <li><strong>Properties:</strong> ARIA properties provide additional information about elements, such as labels, descriptions, or values.</li>
+  </ul>
+
+  <h2>Example Usage:</h2>
+
+  <p>Below are examples demonstrating the usage of ARIA attributes:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Element</th>
+        <th>ARIA Attributes</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Button</td>
+        <td>role="button"</td>
+        <td><button role="button">Click me</button></td>
+      </tr>
+      <tr>
+        <td>Link</td>
+        <td>role="link"</td>
+        <td><a href="#" role="link">Visit website</a></td>
+      </tr>
+      <tr>
+        <td>Menu</td>
+        <td>role="menu"</td>
+        <td>
+          <ul role="menu">
+            <li>Option 1</li>
+            <li>Option 2</li>
+            <li>Option 3</li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Audio Example:</h2>
+
+  <audio controls>
+    <source src="https://youtu.be/ZZNQz0fDhkQ" type="audio/mpeg">
+  </audio>
+
+  <h2>Video Example:</h2>
+
+  <video controls width="400">
+    <source src="https://youtu.be/ZZNQz0fDhkQ" type="video/mp4">
+  </video>
+  <div>
+    <iframe width="500" height="315" src="multimedia/Introduction to  Accessibility Rich Internet Applications (ARIA).mp4" frameborder="0"></iframe>
+  </div>
+
+</body>
+</html>
